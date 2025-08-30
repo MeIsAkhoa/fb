@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, url_for, redirect
 
 app = Flask(__name__)
 
-# ngrok.set_auth_token("2XsprUH5f0McYlZmLsFPuo2BZ9D_3C1HoH93ULjt6B3AUsZwM")
+# ngrok.set_auth_token("your_auth_token_here")
 # public_url = ngrok.connect(5000).public_url
 
 @app.route("/", methods=['GET','POST'])
